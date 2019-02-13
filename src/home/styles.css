@@ -1,0 +1,162 @@
+/**
+ * React Static Boilerplate
+ * https://github.com/koistya/react-static-boilerplate
+ *
+ * Copyright © 2015-2016 Konstantin Tarkus (@koistya)
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+.lotteryResultTitle {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.teamBlock {
+  /* border-radius: 5px; */
+  padding: 15px 15px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  /* text-align: center; */
+  transform: skew(-13deg); /* Standard syntax */
+}
+
+.greenTeam {
+  /* background-color: #5cb85c; */
+  border: 2px solid blue;
+  color: blue;
+}
+
+.redTeam {
+  /* background-color: #d9534f; */
+  border: 2px solid red;
+  color: red;
+}
+
+.timer {
+  font-size: 35px;
+  padding: 10px;
+}
+
+.redTimer {
+  color: red !important;
+}
+
+.greenTimer {
+  color: blue !important;
+}
+
+.resultTitle {
+  color: white;
+  font-weight: 800;
+  padding: 7px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.resultValue {
+  color: white;
+  font-weight: 800;
+  /* padding: 7px; */
+  font-size: 16px;
+  /* margin-bottom: 10px; */
+  /* min-height: 36px; */
+  text-align: center;
+}
+
+.teamName {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.centerImg {
+  width: 236px;
+  margin: auto;
+}
+
+.greenTeamText {
+  color: blue;
+}
+
+.redTeamText {
+  color: #d9534f;
+}
+
+.resultTable {
+  color: white;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.resultTable > thead > tr  {
+  /* background-color: none; */
+  color: #4286f4;
+}
+
+.resultTable > thead > tr > th, .resultTable > tbody > tr > td {
+  /* border: 2px solid white; */
+  border: 0;
+  vertical-align: middle;
+  font-size: 16px;
+  height: 40px;
+}
+
+.resultTable > thead > tr > th {
+  text-align: center;
+}
+
+.resultTable > tbody > tr:nth-child(odd) {
+  /* background-color: #FCDDD0 */
+  background-color: rgba(255, 255, 255,0.2);
+}
+
+.resultTable > tbody > tr:nth-child(even) {
+  /* background-color: #FDEFE9 */
+}
+
+.winnerName {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.winText {
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+}
+
+.banKet1Tren {
+  position: absolute;
+  left: 118px;
+  top: 65px;
+  font-size: 23px;
+  color: #5cb85c;
+}
+
+.banKet1Duoi {
+  position: absolute;
+  left: 118px;
+  top: 186px;
+  font-size: 23px;
+  color: #d9534f;
+}
+
+.banKet2Tren {
+  position: absolute;
+  top: 65px;
+  right: 118px;
+  font-size: 23px;
+  color: #5cb85c;
+}
+
+.banKet2Duoi {
+  position: absolute;
+  top: 186px;
+  right: 118px;
+  font-size: 23px;
+  color: #d9534f;
+}
